@@ -1,0 +1,9 @@
+export const PLACE_ERROR_CODES = {
+  INVALID_BOUNDS: 'INVALID_BOUNDS',
+  FETCH_FAILED: 'FETCH_FAILED',
+  PLACE_NOT_FOUND: 'PLACE_NOT_FOUND',
+  CREATE_FAILED: 'CREATE_FAILED',
+} as const;
+
+export type PlaceErrorCode =
+  (typeof PLACE_ERROR_CODES)[keyof typeof PLACE_ERROR_CODES];
