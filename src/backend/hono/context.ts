@@ -8,6 +8,8 @@ export type AppConfig = {
     url: string;
     serviceRoleKey: string;
   };
+  NAVER_CLIENT_ID: string;
+  NAVER_CLIENT_SECRET: string;
 };
 
 export type AppVariables = {

@@ -13,3 +13,5 @@ color: green
 - PostgreSQL을 사용한다.
 
 반드시 `/docs/database.md` 경로에 생성하라.
+
+
